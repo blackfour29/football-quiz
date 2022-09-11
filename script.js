@@ -44,7 +44,7 @@ class App {
   #cells;
   #score=0;
   #interval;
-  #totalTime = 600;
+  #totalTime = 300;
 
   constructor(){
     startBtn.addEventListener("click", this._initgame.bind(this));
