@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top footballers quiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/fav.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="title">Do you know the top 25 footballers?</h1>
+    <p class="title_text">Test your knowledge by taking this quiz <i class="fas fa-futbol icon--football"></i></p>
+    <small class="title_note"><i class="fa-solid fa-triangle-exclamation icon--triangle"></i> Note that the list is based on the players market value as of 11.09.2022</small>
+  </header>
+
+  <main class="game-container">
+    <section class="game__info">
+      <button class="game__start-button">Play Quiz</button>
+      
+      <div class="game__input-container hidden">
+        <label for="game-input" class="game__input-label">Enter Player: </label>
+        <input name="input-field" type="text" class="game__input">
+      </div>
+      <button class="game__surrender-button hidden">Give up?</button>
+
+      <div class="game__score-and-timer-container">
+        <div class="game__score-container">
+          <p class="game__score-text">Score <i class="fas fa-arrow-down"></i></p>
+          <p class="game__score"><span class="game__player-score">0</span>/100</p>
+        </div>
+
+        <div class="game__timer-container">
+          <p class="game__timer-text">Time <i class="fas fa-arrow-down"></i></p>
+          <p class="game__timer">10:00</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="game-table-container">
+
+      <div class="game__column-names">
+        <p class="game__column-team">Team</p>
+        <p class="game__column-name">Name</p>
+        <p class="game__column-nationality">Nationality</p>
+      </div>
+      
+      <div class="game__table">
+
+        <div class="game__column game__column1">
+          
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+          <div><p class="cell__team">?</p></div>
+
+        </div>
+
+        <div class="game__column game__column2">
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+          <div><p class="cell__name">‎</p></div>
+        </div>
+
+        <div class="game__column game__column3">
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+          <div><p class="cell__nationality">?</p></div>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    
+  </main>
+
+  <footer class="footer">
+    <div class="game-result-container">
+
+      <div class="game-result__win-container">
+        <h1 class="game-result hidden"></h1>
+      </div>
+
+    </div>
+    
+    <p class="game-result__final-message"></p>
+
+    <button class="replay-btn hidden">Play again</button>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
